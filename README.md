@@ -4,4 +4,4 @@ This study investigates the use of finite element analysis (FEA) to generate fea
 The second portion of the study was to use the trained ML model to perform a Monte Carlo simulation to predict the output distrubution of product performance using sub-supplier incoming feature data distributions.  With this analytics method, poor yielding lots could be predicted and prevented from being built.  There are many extensions of this method which could be useful where measurement or procurring physical parts are difficult. 
 
 # Sample Code
-A small portion of the data is presented in the sample code file: 
+A small portion of the data is presented in the sample code file: https://steve303.github.io/FEA-ML/FEA_ML_pres01.ipynb 

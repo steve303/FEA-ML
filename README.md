@@ -9,5 +9,5 @@ There are many extensions of this method which could be useful where measurement
 
 
 
-# Sample Code
-A small portion of the data is presented in the sample code file: FEA_ML_pres01.ipynb (to view click link above)
+# Presentation and Sample Code
+Go to the link above: FEA_ML_pres01.ipynb 

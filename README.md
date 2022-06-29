@@ -3,7 +3,9 @@ This study investigates the use of finite element analysis (FEA) to generate fea
 
 The second portion of the study was to use the trained ML model to perform a Monte Carlo simulation to predict the output distrubution of product performance using sub-supplier incoming feature data distributions.  With this analytics method, poor yielding lots could be predicted and prevented from being built.
 
-One obvious question is, why not just use the FEA model to perform the Monte Carlo simulation.  That is, why go through the trouble of creating a ML model which is simply a mapping function of the FEA results.  The reason is we need to run the FEA model 100,000 or more times.  This simply is not practical because the FEA model can take hours to run whereas the ML model can run in seconds.  There are many extensions of this method which could be useful where measurement or procurring physical parts are difficult. For example, once a ML has been established and has good predictive power, one could use the ML model to perform an exhaustive exploration of the design matrix to locate optimum design points.  Later, the optimum design point (according to the ML model) could be verified running a FEA model.  
+One obvious question is, why not just use the FEA model to perform the Monte Carlo simulation.  That is, why go through the trouble of creating a ML model which is simply a mapping function of the FEA results.  The reason is we need to run the FEA model 100,000 or more times.  This simply is not practical because the FEA model can take hours to run whereas the ML model can run in seconds.  
+
+There are many extensions of this method which could be useful where measurement or procurring physical parts are difficult. The other reason is to use the ML model, which produces quick solutions, as a surrogate to the FEA model which is slower. For example, once a ML has been established and has good predictive power, one could use the ML model to perform an exhaustive exploration of the design matrix to locate optimum design points.  Later, the optimum design point, according to the ML model, could be verified running a FEA model.  
 
 
 
